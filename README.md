@@ -48,4 +48,4 @@ NPM Starter Page:
 
 ## Authors
 
-Developed by Austin Brown.
+Repository managed by Austin Brown.

@@ -1,0 +1,5 @@
+styles:
+  version: VERSION
+  css:
+    theme:
+      dist/styles.css: {}

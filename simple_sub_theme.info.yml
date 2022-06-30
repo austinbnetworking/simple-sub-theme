@@ -1,0 +1,19 @@
+name: Simple Base Theme
+description: Custom theme built by Austin Brown for a web dev portfolio.
+type: theme
+version: VERSION
+core_version_requirement: ^8 || ^9
+base theme: bartik
+libraries:
+  - simple_base_theme/styles
+  - simple_base_theme/scripts
+
+regions:
+  pre_navigation: Pre Navigation
+  main_navigation: Main Navigation
+  status_message: Status Message
+  breadcrumbs: Breadcrumbs
+  content: Main Content
+  pre_footer: Pre Footer
+  footer_left: Footer Left
+  footer_right: Footer RIght

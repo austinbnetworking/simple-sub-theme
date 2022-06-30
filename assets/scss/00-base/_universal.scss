@@ -1,0 +1,93 @@
+/* General Styling */
+// Fonts
+@font-face {
+    font-family: "Segoe UI"; /*a name to be used later*/
+    src: url("../fonts/segoeui.ttf"); /*URL to font*/
+}
+@font-face {
+    font-family: "Segoe-UI-Bold"; /*a name to be used later*/
+    src: url("../fonts/segoeuib.ttf"); /*URL to font*/
+}
+
+:root {
+    --base-text: #2a2a2a;
+    --content-background: #fcf8ea;
+    --accent-borders: #eed7a1;
+    --linktext: #9b7827;
+    --light: #ffffff;
+    --footer-link: #8caec8;
+    --footer-text: #c8e7ff;
+    --footer-background: #475c6c;
+    --background: #f7efd2;
+    --hover-background: #111111;
+    --hover-color: #ffffff;
+}
+
+body {
+    transition: ease-in-out 200ms;
+    background-color: var(--background);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Headers */
+h1 {
+    color: $header-text;
+    a {
+        color: $header-text;
+    }
+}
+h2 {
+    color: $header-text;
+    a {
+        color: $header-text;
+    }
+}
+h3 {
+    color: $header-text;
+    a {
+        color: $header-text;
+    }
+}
+h4 {
+    color: $header-text;
+    a {
+        color: $header-text;
+    }
+}
+h5 {
+    color: $header-text;
+    a {
+        color: $header-text;
+    }
+}
+h6 {
+    color: $header-text;
+    a {
+        color: $header-text;
+    }
+}
+
+/* Basic Body Styling */
+body,
+p {
+    color: $dark-body-text;
+}
+
+a {
+    color: $secondary;
+    text-decoration: none;
+    &:hover {
+        color: $primary;
+        text-decoration: underline;
+    }
+}
+
+/* Primary Admin Tasks */
+#block-iid-primary-local-tasks {
+    margin-bottom: 2rem;
+}

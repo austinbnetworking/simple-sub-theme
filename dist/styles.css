@@ -1,0 +1,93 @@
+/*
+THEME CUSTOM STYLES
+---------------------------------------------
+!! Copy this file to your project's scss root
+---------------------------------------------
+Custom project SASS goes here.
+
+i.e.
+@include u-padding-right('05');
+----------------------------------------
+*/
+/* Text */
+/* Theme Colors */
+/* General Styling */
+@font-face {
+  font-family: "Segoe UI";
+  /*a name to be used later*/
+  src: url("../fonts/segoeui.ttf");
+  /*URL to font*/ }
+
+@font-face {
+  font-family: "Segoe-UI-Bold";
+  /*a name to be used later*/
+  src: url("../fonts/segoeuib.ttf");
+  /*URL to font*/ }
+
+:root {
+  --base-text: #2a2a2a;
+  --content-background: #fcf8ea;
+  --accent-borders: #eed7a1;
+  --linktext: #9b7827;
+  --light: #ffffff;
+  --footer-link: #8caec8;
+  --footer-text: #c8e7ff;
+  --footer-background: #475c6c;
+  --background: #f7efd2;
+  --hover-background: #111111;
+  --hover-color: #ffffff; }
+
+body {
+  transition: ease-in-out 200ms;
+  background-color: var(--background); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+/* Headers */
+h1 {
+  color: #2c2c2c; }
+  h1 a {
+    color: #2c2c2c; }
+
+h2 {
+  color: #2c2c2c; }
+  h2 a {
+    color: #2c2c2c; }
+
+h3 {
+  color: #2c2c2c; }
+  h3 a {
+    color: #2c2c2c; }
+
+h4 {
+  color: #2c2c2c; }
+  h4 a {
+    color: #2c2c2c; }
+
+h5 {
+  color: #2c2c2c; }
+  h5 a {
+    color: #2c2c2c; }
+
+h6 {
+  color: #2c2c2c; }
+  h6 a {
+    color: #2c2c2c; }
+
+/* Basic Body Styling */
+body,
+p {
+  color: #4e4e4e; }
+
+a {
+  color: #6ca2c1;
+  text-decoration: none; }
+  a:hover {
+    color: #42507f;
+    text-decoration: underline; }
+
+/* Primary Admin Tasks */
+#block-iid-primary-local-tasks {
+  margin-bottom: 2rem; }

@@ -1,0 +1,17 @@
+{
+  "name": "simple_sub_theme",
+  "version": "1.0.0",
+  "description": "Custom theme developed by Austin Brown for personal Portfolios.",
+  "main": "index.js",
+  "scripts": {
+    "build-scss": "gulp sass"
+  },
+  "author": "Austin Brown",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.53.0"
+  }
+}

@@ -1,7 +1,7 @@
 # Simple Sub Theme
 
-Simple Sub Theme is a starter theme intended for Drupal 8/9 applications.
-This theme gives a quick start custom theme to build on using:
+Simple Sub Theme is a base theme for Drupal 9.
+This theme utilizes:
 - npm & gulp.
 - scss compilation.
 - atomic scss file structure.
@@ -10,17 +10,13 @@ This theme gives a quick start custom theme to build on using:
 
 ### Dependencies
 
+* Drupal 9
 * Gulp (Used to compile the scss file structure.)
 * NPM (Used to install necessary dependencies, and run gulp.)
 
 ### Installing
 
-* Clone this folder into your Drupal custom theme folder.
-* For Drupal 8/9, this is located at (web/themes/custom/)
-
-```
-git clone https://github.com/austinbnetworking/simple-sub-theme.git
-```
+* Download to custom theme folder: (web/themes/custom/)
 
 ### Usage
 
